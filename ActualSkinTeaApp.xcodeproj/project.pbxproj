@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5539D3D323C26A4300645809 /* problemAreasListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5539D3D223C26A4300645809 /* problemAreasListViewController.swift */; };
+		5539D3D523C26A5F00645809 /* faceButtonsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5539D3D423C26A5F00645809 /* faceButtonsViewController.swift */; };
+		5539D3D723C4E3AC00645809 /* problemAreasDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5539D3D623C4E3AC00645809 /* problemAreasDetailViewController.swift */; };
+		5539D3DA23C4E93B00645809 /* problemAreaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5539D3D923C4E93B00645809 /* problemAreaModel.swift */; };
+		5539D3DC23C4E9E000645809 /* SkinCareProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5539D3DB23C4E9E000645809 /* SkinCareProduct.swift */; };
+		5539D3E323C5343A00645809 /* actualApp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5539D3E223C5343A00645809 /* actualApp.storyboard */; };
+		5539D3E523C5354900645809 /* profileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5539D3E423C5354900645809 /* profileCell.swift */; };
+		5539D3E723C5369400645809 /* productsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5539D3E623C5369400645809 /* productsCell.swift */; };
+		5539D3EA23C6463B00645809 /* feedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5539D3E923C6463B00645809 /* feedViewController.swift */; };
+		5539D3ED23C646C400645809 /* feedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5539D3EC23C646C400645809 /* feedCell.swift */; };
+		5539D3EF23C647BB00645809 /* productModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5539D3EE23C647BB00645809 /* productModel.swift */; };
+		5539D3F223C6514900645809 /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5539D3F123C6514900645809 /* NetworkHelper.swift */; };
+		5539D3F423C651C900645809 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5539D3F323C651C900645809 /* AppError.swift */; };
+		5539D3F623C651E600645809 /* ProductsAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5539D3F523C651E600645809 /* ProductsAPIClient.swift */; };
+		5539D3F923C65F5800645809 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5539D3F823C65F5800645809 /* UIImageView+Extension.swift */; };
+		55ACB01923C68E5700DD2CBA /* alerts Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55ACB01823C68E5700DD2CBA /* alerts Extentions.swift */; };
+		55DA47B523B9246700299C6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DA47B423B9246700299C6D /* AppDelegate.swift */; };
+		55DA47B723B9246700299C6D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DA47B623B9246700299C6D /* SceneDelegate.swift */; };
+		55DA47B923B9246700299C6D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DA47B823B9246700299C6D /* LoginViewController.swift */; };
+		55DA47BC23B9246700299C6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55DA47BA23B9246700299C6D /* Main.storyboard */; };
+		55DA47BE23B9246A00299C6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55DA47BD23B9246A00299C6D /* Assets.xcassets */; };
+		55DA47C123B9246A00299C6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55DA47BF23B9246A00299C6D /* LaunchScreen.storyboard */; };
+		55DA47CC23B9246A00299C6D /* ActualSkinTeaAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DA47CB23B9246A00299C6D /* ActualSkinTeaAppTests.swift */; };
+		55DA47D723B92D6100299C6D /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DA47D623B92D6100299C6D /* SignUpViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55DA47C823B9246A00299C6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55DA47A923B9246700299C6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55DA47B023B9246700299C6D;
+			remoteInfo = ActualSkinTeaApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5539D3D223C26A4300645809 /* problemAreasListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = problemAreasListViewController.swift; sourceTree = "<group>"; };
+		5539D3D423C26A5F00645809 /* faceButtonsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = faceButtonsViewController.swift; sourceTree = "<group>"; };
+		5539D3D623C4E3AC00645809 /* problemAreasDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = problemAreasDetailViewController.swift; sourceTree = "<group>"; };
+		5539D3D923C4E93B00645809 /* problemAreaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = problemAreaModel.swift; sourceTree = "<group>"; };
+		5539D3DB23C4E9E000645809 /* SkinCareProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinCareProduct.swift; sourceTree = "<group>"; };
+		5539D3E223C5343A00645809 /* actualApp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = actualApp.storyboard; sourceTree = "<group>"; };
+		5539D3E423C5354900645809 /* profileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileCell.swift; sourceTree = "<group>"; };
+		5539D3E623C5369400645809 /* productsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = productsCell.swift; sourceTree = "<group>"; };
+		5539D3E923C6463B00645809 /* feedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = feedViewController.swift; sourceTree = "<group>"; };
+		5539D3EC23C646C400645809 /* feedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = feedCell.swift; sourceTree = "<group>"; };
+		5539D3EE23C647BB00645809 /* productModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = productModel.swift; sourceTree = "<group>"; };
+		5539D3F123C6514900645809 /* NetworkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
+		5539D3F323C651C900645809 /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
+		5539D3F523C651E600645809 /* ProductsAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsAPIClient.swift; sourceTree = "<group>"; };
+		5539D3F823C65F5800645809 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		55ACB01823C68E5700DD2CBA /* alerts Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "alerts Extentions.swift"; sourceTree = "<group>"; };
+		55DA47B123B9246700299C6D /* ActualSkinTeaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ActualSkinTeaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55DA47B423B9246700299C6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		55DA47B623B9246700299C6D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		55DA47B823B9246700299C6D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		55DA47BB23B9246700299C6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		55DA47BD23B9246A00299C6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55DA47C023B9246A00299C6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		55DA47C223B9246A00299C6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55DA47C723B9246A00299C6D /* ActualSkinTeaAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ActualSkinTeaAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55DA47CB23B9246A00299C6D /* ActualSkinTeaAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActualSkinTeaAppTests.swift; sourceTree = "<group>"; };
+		55DA47CD23B9246A00299C6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55DA47D623B92D6100299C6D /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55DA47AE23B9246700299C6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55DA47C423B9246A00299C6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5539D3D823C4E86F00645809 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				5539D3D923C4E93B00645809 /* problemAreaModel.swift */,
+				5539D3DB23C4E9E000645809 /* SkinCareProduct.swift */,
+				5539D3E423C5354900645809 /* profileCell.swift */,
+				5539D3E623C5369400645809 /* productsCell.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		5539D3E123C5341B00645809 /* storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				55DA47BA23B9246700299C6D /* Main.storyboard */,
+				5539D3E223C5343A00645809 /* actualApp.storyboard */,
+			);
+			path = storyboards;
+			sourceTree = "<group>";
+		};
+		5539D3E823C6460D00645809 /* actualAppControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5539D3E923C6463B00645809 /* feedViewController.swift */,
+			);
+			path = actualAppControllers;
+			sourceTree = "<group>";
+		};
+		5539D3EB23C6469500645809 /* actualAppModels */ = {
+			isa = PBXGroup;
+			children = (
+				5539D3EC23C646C400645809 /* feedCell.swift */,
+				5539D3EE23C647BB00645809 /* productModel.swift */,
+			);
+			path = actualAppModels;
+			sourceTree = "<group>";
+		};
+		5539D3F023C6512500645809 /* helperFunctions */ = {
+			isa = PBXGroup;
+			children = (
+				5539D3F123C6514900645809 /* NetworkHelper.swift */,
+				5539D3F323C651C900645809 /* AppError.swift */,
+				5539D3F523C651E600645809 /* ProductsAPIClient.swift */,
+			);
+			path = helperFunctions;
+			sourceTree = "<group>";
+		};
+		5539D3F723C6587600645809 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5539D3F823C65F5800645809 /* UIImageView+Extension.swift */,
+				55ACB01823C68E5700DD2CBA /* alerts Extentions.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		55DA47A823B9246700299C6D = {
+			isa = PBXGroup;
+			children = (
+				55DA47B323B9246700299C6D /* ActualSkinTeaApp */,
+				55DA47CA23B9246A00299C6D /* ActualSkinTeaAppTests */,
+				55DA47B223B9246700299C6D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55DA47B223B9246700299C6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55DA47B123B9246700299C6D /* ActualSkinTeaApp.app */,
+				55DA47C723B9246A00299C6D /* ActualSkinTeaAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55DA47B323B9246700299C6D /* ActualSkinTeaApp */ = {
+			isa = PBXGroup;
+			children = (
+				5539D3F723C6587600645809 /* Extension */,
+				5539D3F023C6512500645809 /* helperFunctions */,
+				5539D3E123C5341B00645809 /* storyboards */,
+				5539D3D823C4E86F00645809 /* models */,
+				5539D3EB23C6469500645809 /* actualAppModels */,
+				55DA47D823B92D7900299C6D /* main controllers */,
+				5539D3E823C6460D00645809 /* actualAppControllers */,
+				55DA47D923B92DA700299C6D /* supporting files */,
+				55DA47C223B9246A00299C6D /* Info.plist */,
+			);
+			path = ActualSkinTeaApp;
+			sourceTree = "<group>";
+		};
+		55DA47CA23B9246A00299C6D /* ActualSkinTeaAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				55DA47CB23B9246A00299C6D /* ActualSkinTeaAppTests.swift */,
+				55DA47CD23B9246A00299C6D /* Info.plist */,
+			);
+			path = ActualSkinTeaAppTests;
+			sourceTree = "<group>";
+		};
+		55DA47D823B92D7900299C6D /* main controllers */ = {
+			isa = PBXGroup;
+			children = (
+				55DA47B823B9246700299C6D /* LoginViewController.swift */,
+				55DA47D623B92D6100299C6D /* SignUpViewController.swift */,
+				5539D3D423C26A5F00645809 /* faceButtonsViewController.swift */,
+				5539D3D223C26A4300645809 /* problemAreasListViewController.swift */,
+				5539D3D623C4E3AC00645809 /* problemAreasDetailViewController.swift */,
+			);
+			path = "main controllers";
+			sourceTree = "<group>";
+		};
+		55DA47D923B92DA700299C6D /* supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				55DA47B623B9246700299C6D /* SceneDelegate.swift */,
+				55DA47BF23B9246A00299C6D /* LaunchScreen.storyboard */,
+				55DA47BD23B9246A00299C6D /* Assets.xcassets */,
+				55DA47B423B9246700299C6D /* AppDelegate.swift */,
+			);
+			path = "supporting files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55DA47B023B9246700299C6D /* ActualSkinTeaApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55DA47D023B9246A00299C6D /* Build configuration list for PBXNativeTarget "ActualSkinTeaApp" */;
+			buildPhases = (
+				55DA47AD23B9246700299C6D /* Sources */,
+				55DA47AE23B9246700299C6D /* Frameworks */,
+				55DA47AF23B9246700299C6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ActualSkinTeaApp;
+			productName = ActualSkinTeaApp;
+			productReference = 55DA47B123B9246700299C6D /* ActualSkinTeaApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55DA47C623B9246A00299C6D /* ActualSkinTeaAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55DA47D323B9246A00299C6D /* Build configuration list for PBXNativeTarget "ActualSkinTeaAppTests" */;
+			buildPhases = (
+				55DA47C323B9246A00299C6D /* Sources */,
+				55DA47C423B9246A00299C6D /* Frameworks */,
+				55DA47C523B9246A00299C6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55DA47C923B9246A00299C6D /* PBXTargetDependency */,
+			);
+			name = ActualSkinTeaAppTests;
+			productName = ActualSkinTeaAppTests;
+			productReference = 55DA47C723B9246A00299C6D /* ActualSkinTeaAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55DA47A923B9246700299C6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = Pursuit;
+				TargetAttributes = {
+					55DA47B023B9246700299C6D = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					55DA47C623B9246A00299C6D = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 55DA47B023B9246700299C6D;
+					};
+				};
+			};
+			buildConfigurationList = 55DA47AC23B9246700299C6D /* Build configuration list for PBXProject "ActualSkinTeaApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55DA47A823B9246700299C6D;
+			productRefGroup = 55DA47B223B9246700299C6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55DA47B023B9246700299C6D /* ActualSkinTeaApp */,
+				55DA47C623B9246A00299C6D /* ActualSkinTeaAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55DA47AF23B9246700299C6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55DA47C123B9246A00299C6D /* LaunchScreen.storyboard in Resources */,
+				55DA47BE23B9246A00299C6D /* Assets.xcassets in Resources */,
+				5539D3E323C5343A00645809 /* actualApp.storyboard in Resources */,
+				55DA47BC23B9246700299C6D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55DA47C523B9246A00299C6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55DA47AD23B9246700299C6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55DA47B923B9246700299C6D /* LoginViewController.swift in Sources */,
+				5539D3ED23C646C400645809 /* feedCell.swift in Sources */,
+				5539D3D523C26A5F00645809 /* faceButtonsViewController.swift in Sources */,
+				5539D3E523C5354900645809 /* profileCell.swift in Sources */,
+				5539D3F423C651C900645809 /* AppError.swift in Sources */,
+				5539D3EF23C647BB00645809 /* productModel.swift in Sources */,
+				5539D3EA23C6463B00645809 /* feedViewController.swift in Sources */,
+				5539D3DC23C4E9E000645809 /* SkinCareProduct.swift in Sources */,
+				55DA47B523B9246700299C6D /* AppDelegate.swift in Sources */,
+				5539D3F223C6514900645809 /* NetworkHelper.swift in Sources */,
+				5539D3E723C5369400645809 /* productsCell.swift in Sources */,
+				5539D3D723C4E3AC00645809 /* problemAreasDetailViewController.swift in Sources */,
+				5539D3DA23C4E93B00645809 /* problemAreaModel.swift in Sources */,
+				5539D3F623C651E600645809 /* ProductsAPIClient.swift in Sources */,
+				55ACB01923C68E5700DD2CBA /* alerts Extentions.swift in Sources */,
+				55DA47D723B92D6100299C6D /* SignUpViewController.swift in Sources */,
+				5539D3F923C65F5800645809 /* UIImageView+Extension.swift in Sources */,
+				5539D3D323C26A4300645809 /* problemAreasListViewController.swift in Sources */,
+				55DA47B723B9246700299C6D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55DA47C323B9246A00299C6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55DA47CC23B9246A00299C6D /* ActualSkinTeaAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55DA47C923B9246A00299C6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55DA47B023B9246700299C6D /* ActualSkinTeaApp */;
+			targetProxy = 55DA47C823B9246A00299C6D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		55DA47BA23B9246700299C6D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55DA47BB23B9246700299C6D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		55DA47BF23B9246A00299C6D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55DA47C023B9246A00299C6D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55DA47CE23B9246A00299C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		55DA47CF23B9246A00299C6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55DA47D123B9246A00299C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T3TVM2A475;
+				INFOPLIST_FILE = ActualSkinTeaApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pursuitful.ActualSkinTeaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55DA47D223B9246A00299C6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T3TVM2A475;
+				INFOPLIST_FILE = ActualSkinTeaApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pursuitful.ActualSkinTeaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		55DA47D423B9246A00299C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T3TVM2A475;
+				INFOPLIST_FILE = ActualSkinTeaAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pursuitful.ActualSkinTeaAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ActualSkinTeaApp.app/ActualSkinTeaApp";
+			};
+			name = Debug;
+		};
+		55DA47D523B9246A00299C6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T3TVM2A475;
+				INFOPLIST_FILE = ActualSkinTeaAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pursuitful.ActualSkinTeaAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ActualSkinTeaApp.app/ActualSkinTeaApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55DA47AC23B9246700299C6D /* Build configuration list for PBXProject "ActualSkinTeaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55DA47CE23B9246A00299C6D /* Debug */,
+				55DA47CF23B9246A00299C6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55DA47D023B9246A00299C6D /* Build configuration list for PBXNativeTarget "ActualSkinTeaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55DA47D123B9246A00299C6D /* Debug */,
+				55DA47D223B9246A00299C6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55DA47D323B9246A00299C6D /* Build configuration list for PBXNativeTarget "ActualSkinTeaAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55DA47D423B9246A00299C6D /* Debug */,
+				55DA47D523B9246A00299C6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55DA47A923B9246700299C6D /* Project object */;
+}
